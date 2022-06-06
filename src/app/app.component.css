@@ -1,0 +1,27 @@
+p {
+  font-family: Lato;
+}
+
+#main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#main-graph {
+  background-color: #4ecdc4;
+  height: 80%;
+  overflow: hidden;
+}
+
+#main-description {
+  padding: 1rem;
+  color: white;
+  background-color: #1a535c;
+  height: 20%;
+  overflow-y: scroll;
+}
